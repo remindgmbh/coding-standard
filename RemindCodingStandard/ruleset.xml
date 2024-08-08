@@ -1,8 +1,5 @@
 <?xml version="1.0"?>
 <ruleset name="Remind">
-    <exclude-pattern>*/public/*</exclude-pattern>
-    <exclude-pattern>*/vendor/(?!remind/)*</exclude-pattern>
-
     <!-- Include PSR12 Standard -->
     <rule ref="PSR12">
         <type>error</type>
