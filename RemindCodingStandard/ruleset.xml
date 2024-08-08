@@ -74,6 +74,11 @@
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireMultiLineCondition">
         <type>error</type>
+        <properties>
+            <property name="minLineLength" value="0"/>
+            <property name="booleanOperatorOnPreviousLine" value="1"/>
+            <property name="alwaysSplitAllConditionParts" value="1"/>
+        </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceEqualOperator">
         <type>error</type>
