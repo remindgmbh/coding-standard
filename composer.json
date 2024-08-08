@@ -1,0 +1,13 @@
+{
+    "name": "remind/coding-standard",
+    "type" : "phpcodesniffer-standard",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "^3.10",
+        "slevomat/coding-standard": "^8.15"
+    }
+}
